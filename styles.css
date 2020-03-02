@@ -1,57 +1,106 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 10px;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 1px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 0 5px 0;
+  border-bottom: 1px solid #ddd;
 }
 
 .navbar-icon {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .navbar-logo {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.navbar-icon i, .icon-txt {
-    padding-left: 25px;
-    font-size: 1.6rem;
-    cursor: pointer;
+.navbar-icon i,
+.icon-txt {
+  padding-left: 25px;
+  font-size: 1.6rem;
+  cursor: pointer;
 }
 
 .icon-txt {
-    font-weight: 700;
-    font-size: 1.425rem;
-    font-family: Helvetica;
-    cursor: pointer;
+  font-weight: 700;
+  font-size: 1.425rem;
+  font-family: Helvetica, sans-serif, Arial;
+  cursor: pointer;
 }
 
 .icon-btn {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .btn-subscribe,
 .btn-login {
-    background-color: #567b95;
-    color: #ffffff;
-    font-weight: 700;
-    padding: 8px 10px 5px 10px;
-    border-radius: 3px;
-    text-transform: uppercase;
-    line-height: 11px;
-    border: 1px solid #326891;
-    font-family: Helvetica;
-    font-size: 1.1rem;
-    cursor: pointer;
+  background-color: #567b95;
+  color: #fff;
+  font-weight: 700;
+  padding: 8px 10px 5px 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  line-height: 11px;
+  border: 1px solid #326891;
+  font-family: Helvetica, sans-serif, Arial;
+  font-size: 1.1rem;
+  cursor: pointer;
 }
 
 .btn-login {
-    margin-left: 10px;
+  margin-left: 10px;
+}
+
+.main-header-text {
+  width: 40%;
+  margin-left: 350px;
+  padding: 0;
+  margin-top: 65px;
+}
+
+h1 {
+  color: #121212;
+  font-family: 'Libre Baskerville', sans-serif, Arial;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 4.5rem;
+  font-size: 3.5rem;
+}
+
+.image-container {
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  height: 500px;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.image-title {
+    width: 80%;
+    margin-top: 0;
+    padding: 0;
+}
+
+#image-text {
+    font-size: 1.3rem;
+    color: #666;
+    line-height: 1.6rem;
+    font-weight: 400;
+    font-family: 'Libre Baskerville', sans-serif, Arial;
+}
+
+#image-text span {
+    color: #888;
+    font-size: 1rem;
 }
