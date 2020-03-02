@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 0;
+}
+
+.navbar-icon {
+    margin-left: 5px;
+}
+
+.navbar-logo {
+    cursor: pointer;
+}
+
+.navbar-icon i, .icon-txt {
+    padding-left: 25px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.icon-txt {
+    font-weight: 700;
+    font-size: 1.425rem;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+
+.icon-btn {
+    margin-right: 15px;
+}
+
+.btn-subscribe,
+.btn-login {
+    background-color: #567b95;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 8px 10px 5px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    line-height: 11px;
+    border: 1px solid #326891;
+    font-family: Helvetica;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.btn-login {
+    margin-left: 10px;
+}
