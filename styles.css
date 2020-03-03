@@ -274,6 +274,30 @@ h1 {
   color: #333;
 }
 
+.SU-video iframe {
+  width: 100%;
+  height: 319px;
+  border: 0;
+}
+
+.video-credit {
+  /* margin-top: 7px; */
+  padding: 0;
+}
+
+.video-credit p{
+  text-align: left;
+  color: #333;
+  font-family: 'Libre Baskerville', sans-serif, Arial;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.video-credit span {
+  font-size: 11px;
+  color: #666;
+}
+
 #image-text {
   font-size: 1.3rem;
   color: #666;
