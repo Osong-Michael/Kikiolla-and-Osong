@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   font-size: 10px;
   padding: 0;
   margin: 0;
@@ -77,7 +78,7 @@ h1 {
 }
 
 a {
-    color: #326891;
+  color: #326891;
 }
 
 .image-container {
@@ -91,74 +92,73 @@ a {
 }
 
 .image-title {
-    width: 80%;
-    margin-top: 0;
-    padding: 0;
+  width: 80%;
+  margin-top: 0;
+  padding: 0;
 }
 
 .article-section {
-    width: 100%;
-    margin-top: 100px;
-    font-size: 1.6rem;
+  width: 100%;
+  margin-top: 100px;
+  font-size: 1.6rem;
 }
 
 .main-article-author {
-    max-width: 650px;
-    margin: 0 auto 60px auto;
-    box-sizing: border-box;
+  max-width: 650px;
+  margin: 0 auto 60px auto;
+  box-sizing: border-box;
 }
 
 .main-article-author span {
-    color: #333;
-    letter-spacing: 0.02em;
-    font-size: 1.5rem;
-    font-family: Helvetica, sans-serif, Arial;
-    font-weight: 700;
-    line-height: 1.5rem;
-    cursor: pointer;
+  color: #333;
+  letter-spacing: 0.02em;
+  font-size: 1.5rem;
+  font-family: Helvetica, sans-serif, Arial;
+  font-weight: 700;
+  line-height: 1.5rem;
+  cursor: pointer;
 }
 
 .main-article {
-    max-width: 650px;
-    margin: 0 auto 0 auto;
+  max-width: 650px;
+  margin: 0 auto 0 auto;
 }
 
 .date {
-    float: left;
-    margin-top: 20px;
-    color: #333;
-    font-weight: 300;
-    font-size: 1.3rem;
-    font-family: Helvetica, sans-serif, Arial;
+  float: left;
+  margin-top: 20px;
+  color: #333;
+  font-weight: 300;
+  font-size: 1.3rem;
+  font-family: Helvetica, sans-serif, Arial;
 }
 
 .article-icons {
-    float: right;
-    margin-top: 10px;
-    cursor: pointer;
+  float: right;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 .main-article p {
-    font-family: 'Libre Baskerville', sans-serif, Arial;
-    line-height: 2.8rem;
-    color: #333;
-    font-weight: 400;
+  font-family: 'Libre Baskerville', sans-serif, Arial;
+  line-height: 2.8rem;
+  color: #333;
+  font-weight: 400;
 }
 
-.clearfix{
-    clear: both;
+.clearfix {
+  clear: both;
 }
 
 #image-text {
-    font-size: 1.3rem;
-    color: #666;
-    line-height: 1.6rem;
-    font-weight: 400;
-    font-family: 'Libre Baskerville', sans-serif, Arial;
+  font-size: 1.3rem;
+  color: #666;
+  line-height: 1.6rem;
+  font-weight: 400;
+  font-family: 'Libre Baskerville', sans-serif, Arial;
 }
 
 #image-text span {
-    color: #888;
-    font-size: 1rem;
+  color: #888;
+  font-size: 1rem;
 }
-
