@@ -221,6 +221,51 @@ h1 {
 .big-txt {
   font-size: 1.8rem;
 }
+.grid-container {
+  max-width: 900px;
+  margin: 20px auto 10px auto;
+}
+.grid { 
+  background-image: url(images/grid-img.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+}
+.grid-container h4 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.grid-container-txt {
+  color: #666666;
+  font-size: 1.3rem;
+  margin-top: 3px;
+  font-family: 'Libre Baskerville', sans-serif, Arial;
+}
+.grid-txt {
+  margin-top: 150px;
+  font-size: 1.35rem;
+  line-height: 1.5;
+}
+.grid-txt-1 {
+  margin-top: 210px;
+  font-size: 1.35rem;
+  line-height: 1.5;
+}
+.hr-name {
+  width: 7%;
+  float: left;
+  color: #000000;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  font-family: Helvetica, sans-serif, Arial;
+}
+.hr-name-txt {
+  font-size: 1.4rem;
+  color: #333333;
+}
 
 #image-text {
   font-size: 1.3rem;
