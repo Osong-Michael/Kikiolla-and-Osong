@@ -375,6 +375,26 @@ h1 {
   cursor: pointer;
 }
 
+.flexbox-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-basis: 1000px;
+}
+
+.inner-wrapper {
+  flex-basis: 65%;
+  padding: 10px 10px 10px 45px;
+}
+
+.inner-wrapper a {
+  color: #000;
+}
+
+.nxt-inner-wrapper {
+  flex-basis: 30%;
+}
+
 #image-text {
   font-size: 1.3rem;
   color: #666;
