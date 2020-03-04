@@ -376,12 +376,14 @@ h1 {
   cursor: pointer;
 }
 .space-section {
-  padding: 40px;
+  padding: 40px 55px;
+  margin: 20px;
 }
 .flexbox-container__hdr {
+  width: 97.5%;
   font-size: 1.6rem;
   border-top: 1px solid #121212;
-  padding-top: 20px;
+  padding-top: 22px;
 }
 .flexbox-container__hdr a {
   margin-left: 5px;
@@ -401,10 +403,36 @@ h1 {
 }
 .flexbox-container__second {
   flex-basis: 28%;
+  padding: 0 35px 0 25px;
+}
+.sec-bdr {
+  border-top: 1px solid #121212;
+}
+.flexbox-container__sec--txt {
+  font-weight: 500;
+  color: rgb(18, 18, 18);
+  line-height: 1.4;
+  font-size: 1.8rem;
+  font-family: 'Caladea', serif;
+}
+.flexbox-container__sec--txt:hover {
+  color: #9e9d9b;
+  cursor: pointer;
 }
 .bor-hr {
   margin-top: 20px;
   width: 97.5%;
+}
+
+.flexbox-container__second h3 {
+  font-size: 1.6rem;
+  padding-top: 5px;
+  color: #333333;
+}
+
+.aside-hr {
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
 }
 .inner--flexbox-container {
   width: 280px;
