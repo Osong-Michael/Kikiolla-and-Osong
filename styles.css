@@ -363,12 +363,6 @@ h1 {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-.flexbx-txt a:hover {
-  text-decoration: underline;
-}
-
-=======
 .space-section {
   padding: 40px 55px;
   margin: 20px;
@@ -464,20 +458,14 @@ h1 {
   margin: 7px 0;
 }
 
->>>>>>> 3717867d280492957bba9545b4d2cce811200165
 .article-btns button:hover {
   background-color: #285d9e;
   color: white;
 }
 
-<<<<<<< HEAD
-.article-end a:hover {
-  text-decoration: none;
-=======
 .flexbox-container__sec--txt:hover {
   color: #9e9d9b;
   cursor: pointer;
->>>>>>> 3717867d280492957bba9545b4d2cce811200165
 }
 
 .flexbx-txt a:hover,
