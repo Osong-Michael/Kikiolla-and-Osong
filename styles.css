@@ -209,8 +209,9 @@ h1 {
 
 .aside-hr {
   color: #f7f6f2;
-  margin: 0;
   padding: 0;
+  margin: 10px 0;
+  border-top: 1px solid #ddd;
 }
 
 .big-txt {
@@ -362,13 +363,126 @@ h1 {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 .flexbx-txt a:hover {
   text-decoration: underline;
 }
 
+=======
+.space-section {
+  padding: 40px 55px;
+  margin: 20px;
+}
+
+.flexbox-container__hdr {
+  width: 97.5%;
+  font-size: 1.6rem;
+  border-top: 1px solid #121212;
+  padding-top: 22px;
+}
+
+.flexbox-container__hdr a {
+  margin-left: 5px;
+  color: #000;
+  text-decoration: none;
+}
+
+.flexbox-container {
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 1000px;
+}
+
+.flexbox-container__first {
+  flex-basis: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flexbox-container__second {
+  flex-basis: 28%;
+  padding: 0 35px 0 25px;
+}
+
+.sec-bdr {
+  border-top: 1px solid #121212;
+}
+
+.flexbox-container__sec--txt {
+  font-weight: 500;
+  color: rgb(18, 18, 18);
+  line-height: 1.4;
+  font-size: 1.8rem;
+  font-family: 'Caladea', serif;
+}
+
+.bor-hr {
+  margin-top: 20px;
+  width: 97.5%;
+}
+
+.flexbox-container__second h3 {
+  font-size: 1.6rem;
+  padding-top: 5px;
+  color: #333;
+}
+
+.inner--flexbox-container {
+  width: 280px;
+  margin: 20px 20px 0 0;
+  padding: 0;
+}
+
+.inner--flexbox-container figure {
+  padding: 0;
+  margin: 0;
+}
+
+.inner--flexbox-hdr {
+  width: 250px;
+  margin: 0 0 0 25px;
+  text-align: right;
+  color: #999;
+  font: 1rem;
+  padding: 0;
+  font-family: Helvetica, sans-serif, Arial;
+}
+
+.flexbox-container__txt {
+  color: #121212;
+  font-size: 1.8rem;
+  margin: 5px 0 0 0;
+  padding: 0;
+  line-height: 1.4;
+  font-family: 'Caladea', serif;
+}
+
+.flexbox-container__date {
+  font-size: 1.35rem;
+  color: #999;
+  font-family: 'Caladea', serif;
+  margin: 7px 0;
+}
+
+>>>>>>> 3717867d280492957bba9545b4d2cce811200165
 .article-btns button:hover {
   background-color: #285d9e;
   color: white;
+}
+
+<<<<<<< HEAD
+.article-end a:hover {
+  text-decoration: none;
+=======
+.flexbox-container__sec--txt:hover {
+  color: #9e9d9b;
+  cursor: pointer;
+>>>>>>> 3717867d280492957bba9545b4d2cce811200165
+}
+
+.flexbx-txt a:hover,
+.flexbox-container__hdr a:hover {
+  text-decoration: underline;
 }
 
 .article-end a:hover {
