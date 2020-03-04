@@ -207,7 +207,8 @@ h1 {
   text-decoration: none;
 }
 
-.flexbx-txt a:hover {
+.flexbx-txt a:hover,
+.flexbox-container__hdr a:hover  {
   text-decoration: underline;
 }
 
@@ -374,25 +375,67 @@ h1 {
 .article-btns img {
   cursor: pointer;
 }
+.space-section {
+  padding: 40px;
+}
+.flexbox-container__hdr {
+  font-size: 1.6rem;
+  border-top: 1px solid #121212;
+  padding-top: 20px;
+}
+.flexbox-container__hdr a {
+  margin-left: 5px;
+  color: #000000;
+  text-decoration: none;
+}
 
 .flexbox-container {
   display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
+  justify-content: space-around;
   flex-basis: 1000px;
 }
-
-.inner-wrapper {
-  flex-basis: 65%;
-  padding: 10px 10px 10px 45px;
+.flexbox-container__first {
+  flex-basis: 70%;
+  display: flex;
+  justify-content: space-evenly;
 }
-
-.inner-wrapper a {
-  color: #000;
+.flexbox-container__second {
+  flex-basis: 28%;
 }
-
-.nxt-inner-wrapper {
-  flex-basis: 30%;
+.bor-hr {
+  margin-top: 20px;
+  width: 97.5%;
+}
+.inner--flexbox-container {
+  width: 280px;
+  margin: 20px 20px 0 0;
+  padding: 0;
+}
+.inner--flexbox-container figure {
+  padding: 0;
+  margin: 0;
+}
+.inner--flexbox-container figcaption {
+  width: 250px;
+  margin-left: 25px;
+  text-align: right;
+  color: #999999;
+  font: 1rem;
+  font-family: Helvetica, sans-serif, Arial;
+}
+.flexbox-container__txt {
+  color: #121212;
+  font-size: 1.8rem;
+  margin: 5px 0 0 0;
+  padding: 0;
+  line-height: 1.4;
+  font-family: 'Caladea', serif;
+}
+.flexbox-container__date {
+  font-size: 1.35rem;
+  color: #999999;
+  font-family: 'Caladea', serif;
+  margin: 7px 0;
 }
 
 #image-text {
