@@ -9,15 +9,24 @@ body {
   margin: 0;
 }
 
+header {
+  width: 100%;
+  height: 40px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 7px 0 5px 0;
   border-bottom: 1px solid #ddd;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
 }
 
 .navbar-icon {
   margin-left: 5px;
+  margin-top: 5px;
 }
 
 .navbar-icon a {
@@ -427,7 +436,7 @@ h1 {
   padding: 0;
 }
 
-.inner--flexbox-container figure {
+.inner--flexbox-container div {
   padding: 0;
   margin: 0;
 }
