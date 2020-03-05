@@ -458,6 +458,112 @@ h1 {
   margin: 7px 0;
 }
 
+.footer-hr {
+  width: 89%;
+  margin: auto;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border-color: rgb(252, 252, 252);
+}
+
+.footer-start {
+  margin: auto;
+  width: 89%;
+}
+
+.footer-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-header img {
+  padding-top: 5px;
+}
+
+.footer-header span {
+  padding-top: 20px;
+}
+
+.footer-first-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.footer-link-elts {
+  font-size: 13px;
+  padding: 5px;
+}
+
+.footer-link-elts h4 {
+  font-family: Helvetica, sans-serif, Arial;
+  color: #333;
+  font-weight: 700;
+}
+
+.footer-link-elts ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-link-elts li {
+  list-style: none;
+  padding-bottom: 7px;
+  margin-left: 0;
+  width: 100%;
+  color: #333;
+}
+
+.footer-link-elts a {
+  color: #333;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+}
+
+.footer-img-txt {
+  color: #000;
+  font-weight: 900;
+  position: absolute;
+}
+
+.first-list-item {
+  position: relative;
+}
+
+.first-list-item img {
+  position: relative;
+  top: 3px;
+  left: -4px;
+}
+
+.footer-img-text {
+  position: absolute;
+  top: 0;
+}
+
+.footer-special-links {
+  font-size: 11px;
+}
+
+.footer-proper {
+  display: flex;
+  justify-content: space-between;
+  width: 79%;
+  margin: 15px auto 50px auto;
+  font-size: 11px;
+}
+
+.footer-proper a {
+  text-decoration: none;
+  color: #888a89;
+}
+
+.hidden-h2 {
+  visibility: hidden;
+  margin: 0;
+}
+
 .article-btns button:hover {
   background-color: #285d9e;
   color: white;
@@ -469,7 +575,10 @@ h1 {
 }
 
 .flexbx-txt a:hover,
-.flexbox-container__hdr a:hover {
+.flexbox-container__hdr a:hover,
+.footer-link-elts a:hover,
+.footer-img-txt:hover,
+.footer-proper a:hover {
   text-decoration: underline;
 }
 
@@ -488,4 +597,18 @@ h1 {
 #image-text span {
   color: #888;
   font-size: 1rem;
+}
+
+#footer-left-border {
+  border-left: 3px solid #f7f5f3;
+  padding-left: 10px;
+}
+
+#footer-border-bottom {
+  border-bottom: 1px solid #888a89;
+  margin-bottom: 10px;
+}
+
+#footer-boreder-break {
+  margin-bottom: 12px;
 }
